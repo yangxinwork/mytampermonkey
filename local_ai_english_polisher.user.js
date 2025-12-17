@@ -1,9 +1,13 @@
 // ==UserScript==
-// @name         Local AI English Polisher (Ollama R1)
+// @name         本地大模型英文润色助手
+// @name:en      Local AI English Polisher 
 // @namespace    http://tampermonkey.net/
 // @version      0.2
-// @description  English Polishing MVP using Local Ollama (DeepSeek-R1)
-// @author       You
+// @description 使用本地 Ollama 进行英文润色的简易助手（推荐使用 Qiwen2.5 1.5B 模型）。需要本地安装并运行 Ollama。
+// @description:en  English Polishing MVP using Local Ollama (Qiwen2.5 1.5B model recommended). Requires Ollama installed and running locally.
+// @author       Felix Yang
+// @license      MIT
+// @github       https://github.com/yangxinwork/mytampermonkey
 // @match        *://*/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
